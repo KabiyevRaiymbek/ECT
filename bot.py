@@ -7,7 +7,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 TOKEN = "8579109035:AAH9YIoAlyF03RT4HRcnZBfdvC7nzM7AlPs"
-YOUR_ID = 771164 petals4101          # ← твой ID (проверь через @userinfobot)
+YOUR_ID = 771164           # ← твой ID (проверь через @userinfobot)
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
@@ -110,4 +110,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
